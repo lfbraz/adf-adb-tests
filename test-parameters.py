@@ -2,8 +2,8 @@ import argparse
 import sys
 
 def main(args_sys, args_parser):
-    print(f'My args (using sys.argv):{args_sys}')
-    print(f'My args (using argparse):{args_parser}')
+    print(f'My args (using sys.argv):{args_sys[1]}')
+    print(f'My args (using argparse):{args_parser.first_arg}')
 
 
 if __name__ == "__main__":
